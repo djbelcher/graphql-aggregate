@@ -1,6 +1,6 @@
 {
-  "name": "graphql-aggregate",
-  "version": "0.2.0",
+  "name": "@gd/graphql-aggregate",
+  "version": "0.2.1-rc.1",
   "description": "Aggregation functions for lists in graphql",
   "main": "index.js",
   "scripts": {
@@ -12,31 +12,31 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/blueflag/graphql-aggregate.git"
+    "url": "git+https://github.com/dbelcher/graphql-aggregate.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/blueflag/graphql-aggregate/issues"
+    "url": "https://github.com/dbelcher/graphql-aggregate/issues"
   },
-  "homepage": "https://github.com/blueflag/graphql-aggregate#readme",
+  "homepage": "https://github.com/dbelcher/graphql-aggregate#readme",
   "devDependencies": {
-    "babel-cli": "^6.18.0",
-    "babel-core": "^6.18.2",
-    "babel-register": "^6.18.0",
-    "coveralls": "^2.11.14",
-    "eslint-config-blueflag": "^0.1.0",
-    "flow-bin": "^0.34.0",
-    "jasmine": "^2.5.2",
-    "jasmine-reporters": "^2.2.0",
-    "nyc": "^8.4.0"
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-register": "^6.26.0",
+    "coveralls": "^3.0.0",
+    "eslint-config-blueflag": "^0.7.0",
+    "flow-bin": "^0.66.0",
+    "jasmine": "^3.1.0",
+    "jasmine-reporters": "^2.3.0",
+    "nyc": "^11.4.1"
   },
   "dependencies": {
-    "babel-preset-blueflag": "0.0.1",
-    "babel-register": "^6.18.0",
-    "graphql": "^0.7.2",
-    "immutable": "^3.8.1",
-    "immutable-math": "^0.1.2"
+    "babel-preset-flow": "^6.23.0",
+    "babel-register": "^6.26.0",
+    "graphql": "^0.13.1",
+    "immutable": "^3.8.2",
+    "immutable-math": "^0.2.0"
   },
   "nyc": {
     "all": true,
