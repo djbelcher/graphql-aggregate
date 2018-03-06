@@ -1,6 +1,6 @@
 {
   "name": "@gd/graphql-aggregate",
-  "version": "0.2.1-rc.4",
+  "version": "0.2.1-rc.5",
   "description": "Aggregation functions for lists in graphql",
   "main": "index.js",
   "engines": {
